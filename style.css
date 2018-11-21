@@ -1,0 +1,185 @@
+body { 
+    background: url(./images/img1.jpg) no-repeat center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.container{
+	width: 800px;
+	height: 1900px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 90px;
+    box-shadow: 1px 4px 100px 1px #403d32;
+    border-radius: 10%;
+}
+
+
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+	width:  225px;
+	height:  225px;
+	border-radius: 30%;
+    cursor: pointer;
+}
+
+.avatar:hover {
+    box-shadow: 10px 7px 70px 3px #babeb0;
+}
+
+
+.phone {
+    margin-top: 4px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.email {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.location {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.date {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.name {
+    font-size: 60px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.dev {
+    font-size: 60px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.comm {
+    font-size: 26px;
+    margin-top: 20px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.education {
+    font-size: 45px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.faculty {
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+form {
+    margin: 7px;
+}
+
+.aca{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.skill {
+    font-size: 45px;
+    margin: 35px;
+}
+
+
+.skills {
+    background-color: rgba(210, 213, 216, 0.4);
+    height: 60px;
+    width:500px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills p {
+    margin: 8px;
+    padding: 5px;
+}
+
+#about-me {
+    font-size: 45px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#text {
+	font-size: 25px;
+    margin: auto;
+    font-family: 'Indie Flower', cursive;
+    background: rgba(222, 176, 112, 0.4);
+}
+
+.social {
+	font-size: 50px;
+    margin-top: 50px;
+    letter-spacing:  15px;
+    display: flex;
+    justify-content: center;
+}
+
+.social a:hover {
+    font-size: 65px;
+}
+
+.twitter {
+    color: #08a0e9;
+}
+
+.github {
+    color: #17224e;
+}
+
+.facebook {
+    color: #29487D;
+}
+
+.circle {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #000;
+            position: absolute;
+            border-radius: 15px;
+        }
