@@ -19,7 +19,7 @@ body {
 
 .container{
 	width: 800px;
-	height: 1900px;
+	height: 2200px;
 	background: rgba(0,0,0,0.4);
 	padding: 40px;
 	color: white;
@@ -107,6 +107,11 @@ body {
     margin-bottom: 7px;
 }
 
+.school {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
 form {
     margin: 7px;
 }
@@ -121,20 +126,82 @@ form {
     margin: 35px;
 }
 
+.js {
+    height: 60px;
+    widows: 400px;
+    font-size: 35px;
+    margin: 8px;
+    color: rgba(250, 227, 196, 0.82);
+    font-family: 'Francois One', sans-serif;
+}
 
-.skills {
+.react {
+    height: 60px;
+    widows: 400px;
+    font-size: 35px;
+    margin: 8px;
+    color: rgba(125, 182, 239, 0.78);
+    font-family: 'Francois One', sans-serif;
+}
+
+.html {
+    height: 60px;
+    widows: 400px;
+    font-size: 35px;
+    margin: 8px;
+    color: rgba(204, 109, 68, 0.88);
+    font-family: 'Francois One', sans-serif;
+}
+
+.css {
+    height: 60px;
+    widows: 400px;
+    font-size: 35px;
+    margin: 8px;
+    color: rgba(101, 187, 226, 0.79);
+    font-family: 'Francois One', sans-serif;
+}
+
+.git {
+    height: 60px;
+    widows: 400px;
+    font-size: 35px;
+    margin: 8px;
+    color: rgba(216, 92, 92, 0.9);
+    font-family: 'Francois One', sans-serif;
+}
+
+.dot {
+    height: 24px;
+    width: 24px;
+    background-color: #eddfce;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.dot1 {
+    height: 24px;
+    width: 24px;
+    background-color: rgb(154, 141, 114);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/*.skills {
     background-color: rgba(210, 213, 216, 0.4);
     height: 60px;
     width:500px;
     font-size: 27px;
     display: flex;
     justify-content: center;
-}
+}*/
 
-.skills p {
+/*.skills p {
     margin: 8px;
     padding: 5px;
-}
+}*/
 
 #about-me {
     font-size: 45px;
