@@ -4,7 +4,6 @@ about.addEventListener("click", function(){
     document.getElementById("text").style.padding ="20px";
 })
 
-
 document.onmousemove = animateCircles;
 
 	var colors = ['#eac785','#f4cbd6','#f4ead2'];

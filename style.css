@@ -19,7 +19,7 @@ body {
 
 .container{
 	width: 800px;
-	height: 2200px;
+	height: 2300px;
 	background: rgba(0,0,0,0.4);
 	padding: 40px;
 	color: white;
@@ -79,12 +79,15 @@ body {
 }
 
 .dev {
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    background-color: rgba(208, 180, 142, 0.47);
+    border-radius: 50%;
 }
+
 
 .comm {
     font-size: 26px;
@@ -95,35 +98,43 @@ body {
 }
 
 .education {
-    font-size: 45px;
-    margin: 20px;
+    font-size: 65px;
+    margin: 30px;
     display: flex;
     justify-content: flex-start;
     
 }
 
 .faculty {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 7px;
 }
 
 .school {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
 form {
+    font-size: 17px;
     margin: 7px;
 }
 
 .aca{
-    font-size: 25px;
+    font-size: 32px;
     margin-top: 7px;
 }
 
 .skill {
-    font-size: 45px;
-    margin: 35px;
+    color: rgb(250, 227, 196);
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.skills {
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
 .js {
@@ -131,8 +142,15 @@ form {
     widows: 400px;
     font-size: 35px;
     margin: 8px;
-    color: rgba(250, 227, 196, 0.82);
+    color: rgb(250, 227, 196);
     font-family: 'Francois One', sans-serif;
+}
+
+.js i{
+    color: #e0e021;
+    margin: 15px;
+    font-size: 45px;
+    
 }
 
 .react {
@@ -140,26 +158,46 @@ form {
     widows: 400px;
     font-size: 35px;
     margin: 8px;
-    color: rgba(125, 182, 239, 0.78);
+    color: rgb(250, 227, 196);
     font-family: 'Francois One', sans-serif;
 }
+
+.react i {
+    color: #1682ed;
+    background-color: #ffffff;
+    border-radius: 100%;
+    margin: 15px;
+    font-size: 45px;
+} 
 
 .html {
     height: 60px;
     widows: 400px;
     font-size: 35px;
     margin: 8px;
-    color: rgba(204, 109, 68, 0.88);
+    color: rgb(250, 227, 196);
     font-family: 'Francois One', sans-serif;
+}
+
+.html i {
+    color: #f88c3c;
+    margin: 16px;
+    font-size: 45px;
 }
 
 .css {
     height: 60px;
     widows: 400px;
-    font-size: 35px;
+    font-size: 33px;
     margin: 8px;
-    color: rgba(101, 187, 226, 0.79);
+    color: rgb(250, 227, 196);
     font-family: 'Francois One', sans-serif;
+}
+
+.css i {
+    color: #3389ff;
+    margin: 16px;
+    font-size: 45px;
 }
 
 .git {
@@ -167,8 +205,14 @@ form {
     widows: 400px;
     font-size: 35px;
     margin: 8px;
-    color: rgba(216, 92, 92, 0.9);
+    color: rgb(250, 227, 196);
     font-family: 'Francois One', sans-serif;
+}
+
+.git i {
+    color: #000000;
+    margin: 15px;
+    font-size: 40px;
 }
 
 .dot {
@@ -189,19 +233,7 @@ form {
     margin-left: 30px;
 }
 
-/*.skills {
-    background-color: rgba(210, 213, 216, 0.4);
-    height: 60px;
-    width:500px;
-    font-size: 27px;
-    display: flex;
-    justify-content: center;
-}*/
 
-/*.skills p {
-    margin: 8px;
-    padding: 5px;
-}*/
 
 #about-me {
     font-size: 45px;
@@ -236,7 +268,11 @@ form {
 }
 
 .github {
-    color: #17224e;
+    color: #000000;
+}
+
+.twitter:hover {
+    text-decoration: none;
 }
 
 .facebook {
