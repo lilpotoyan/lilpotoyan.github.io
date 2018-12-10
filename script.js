@@ -1,7 +1,8 @@
 let about = document.getElementById("about-me");
 about.addEventListener("click", function(){
-	document.getElementById("text").innerHTML = "  I am Lilit Potoyan, 22, front-end developer, from Yerevan Armenia. I am a greduate student of Yerevan State University the Faculty of Mathematics and Mechanics, Department of Actuarial and Financial Mathematics. Now I am studying JavaScript and React at Armenian Code Academy. I want to develop my skills in the specific field and become promoted and demandable specialist. As an individual I am very active and sociable, as both friendship and communication are inseperable part in our life. In addition, I strongly appreciate honesty, loyalty and devotion. Moreover I am open to new opportunities, hard-working and self-development is of great importance. I pay attention to details as much as possible because I think that in many cases even a small detail can change everything totally. So I can be not only a team member but also a team leader." ;
-    document.getElementById("text").style.padding ="20px";
+    if(document.getElementById("text").innerHTML === ""){
+	document.getElementById("text").innerHTML = "  I am Lilit Potoyan, 22, front-end developer, from Yerevan Armenia. I am a Greduate student of Yerevan State University the Faculty of Mathematics and Mechanics, Department of Actuarial and Financial Mathematics. Now I am studying JavaScript and React at Armenian Code Academy. I want to develop my skills in the specific field and become promoted and demandable specialist. As an individual I am very active and sociable, as both friendship and communication are inseperable part in our life. In addition, I strongly appreciate honesty, loyalty and devotion. Moreover I am open to new opportunities, hard-working and self-development is of great importance. I pay attention to details as much as possible because I think that in many cases even a small detail can change everything totally. So I can be not only a team member but also a team leader." 
+    } else {document.getElementById("text").innerHTML = ""};
 })
 
 document.onmousemove = animateCircles;
