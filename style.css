@@ -253,7 +253,7 @@ form {
 
 .social {
 	font-size: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     letter-spacing:  15px;
     display: flex;
     justify-content: center;
@@ -278,6 +278,10 @@ form {
 .facebook {
     color: #29487D;
 }
+
+.linkedin {
+    color: #3d6fcc;
+} 
 
 .circle {
             width: 20px;
